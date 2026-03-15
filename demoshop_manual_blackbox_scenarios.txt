@@ -1,0 +1,51 @@
+🛍️ Module 1: Products Listing (Catalog)
+Scenario ID	Description
+SC-001	Verify Products page loads successfully
+SC-002	Verify product list/grid is displayed with product items (or shows an empty-state message if no data)
+SC-003	Verify each product card shows basic information (e.g., name, price, image/placeholder)
+SC-004	Verify product list UI remains correct after page refresh (F5)
+SC-005	Verify product list UI remains correct after browser Back/Forward navigation
+SC-006	Verify long product name/description does not break the layout (wrap/ellipsis)
+SC-007	Verify price format is displayed consistently (currency/decimals) across products
+SC-008	Verify broken/missing product image is handled (placeholder shown, no broken icon)
+SC-009	Verify the page handles slow loading gracefully (shows loading indicator, no freeze)
+SC-010	Verify error handling when network is offline (shows error/retry message, no crash)
+
+🔎 Module 2: Search / Filter / Sort (If available on UI)
+Scenario ID	Description
+SC-011	Verify search by keyword returns matching products
+SC-012	Verify search is case-insensitive (if applicable)
+SC-013	Verify search with no matching result shows “No results”/empty state correctly
+SC-014	Verify clearing search restores the full product list
+SC-015	Verify applying a category/status filter shows correct products
+SC-016	Verify multiple filters can be applied together (if supported)
+SC-017	Verify clearing/removing filters restores the original list
+SC-018	Verify sorting (e.g., price/name) changes product order correctly
+SC-019	Verify switching sort options updates results correctly without duplication/missing items
+SC-020	Verify filter/sort state persists when navigating to product detail and back (if supported)
+
+📄 Module 3: Product Details
+Scenario ID	Description
+SC-021	Verify user can open product details from the product list
+SC-022	Verify product details page shows correct information for the selected product
+SC-023	Verify product name/price shown in details matches the values shown in listing
+SC-024	Verify product details page handles invalid/non-existing product ID (shows Not Found / safe error page)
+SC-025	Verify product details page loads correctly after refresh
+SC-026	Verify navigating back from product details returns to product list successfully
+
+🧭 Module 4: Navigation & Usability
+Scenario ID	Description
+SC-027	Verify header/menu navigation links (if present) work correctly
+SC-028	Verify clicking site logo/home returns to Products page (if present)
+SC-029	Verify UI is responsive on small screen width (mobile layout check)
+SC-030	Verify primary actions are keyboard accessible (Tab/Enter basic check)
+
+��️ Module 5: Data Validation & Input Forms (If create/edit exists)
+Scenario ID	Description
+SC-031	Verify creating a product with valid data succeeds
+SC-032	Verify creating a product with missing required fields shows validation messages
+SC-033	Verify creating a product with invalid price format (letters/special chars) is rejected
+SC-034	Verify creating a product with boundary price values (0, negative, very large) behaves correctly
+SC-035	Verify editing a product with valid updates saves successfully
+SC-036	Verify deleting a product requires confirmation (if confirmation exists) and works correctly
+SC-037	Verify error message is shown when server/API returns an error during create/edit/delete
