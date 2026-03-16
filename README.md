@@ -1,9 +1,10 @@
 ## Tổng hợp các Scenario đã test thủ công
-Các testcase sẽ được liệt kê trong file OrderShop_TestCase.xlsx
-Các tài liệu liên quan tới **test api** với postman sẽ nằm trong folder postman và docs 
 
+- Các testcase sẽ được liệt kê trong file **OrderShop_TestCase.xlsx**
+- Các tài liệu liên quan tới **test api** với postman sẽ nằm trong folder **postman** và **docs** 
 
 ```
+
 Module 1: Quản lí sản phẩm
 Scenario ID | Mô tả
 SC-001 | Xác minh trang Products tải thành công
